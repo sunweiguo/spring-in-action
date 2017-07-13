@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<beans xmlns="http://www.springframework.org/schema/beans"   
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:c="http://www.springframework.org/schema/c"      
+       xsi:schemaLocation="http://www.springframework.org/schema/beans    
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                           http://www.springframework.org/schema/context
+         				   http://www.springframework.org/schema/context/spring-context-3.0.xsd">  
+   	<bean id="cd" class="com.njupt.swg.service.CD">
+   		<constructor-arg value="xml"></constructor-arg>
+   		<constructor-arg value="swg"></constructor-arg>
+   		<constructor-arg>
+   			<list>
+   				<value>摇滚</value>
+   				<value>淡雅</value>
+   				<value>悲伤</value>
+   				<value>欢快</value>
+   			</list>
+   		</constructor-arg>
+   		<!-- 
+   		list中也可以是引用类型，同样适合域set
+   			<constructor-arg>
+   			<list>
+   				<ref bean="class1"/>
+   				<ref bean="class2"/>
+   				<ref bean="class3"/>
+   				<ref bean="class4"/>
+   			</list>
+   		</constructor-arg>
+   		 -->
+   	</bean>
+	<bean id="cdPlayer" class="com.njupt.swg.service.CDPlayer">
+   		<constructor-arg ref="cd"></constructor-arg>
+   	</bean>
+   	<!-- c标签也可以声明构造器参数，但是不能实现list等集合的装配 -->
+   <!-- 	<bean id="cdPlayer" class="com.njupt.swg.service.CDPlayer" c:cd-ref="cd"/> -->
+</beans>

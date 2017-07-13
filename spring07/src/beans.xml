@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<beans xmlns="http://www.springframework.org/schema/beans"   
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:c="http://www.springframework.org/schema/c"      
+       xsi:schemaLocation="http://www.springframework.org/schema/beans    
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                           http://www.springframework.org/schema/context
+         				   http://www.springframework.org/schema/context/spring-context-3.0.xsd">  
+	<bean id="cd" class="com.njupt.swg.service.CD">
+		<property name="name" value="hello"></property>
+		<property name="content" value="world"></property>
+		<property name="style">
+			<list>
+				<value>1111</value>
+				<value>2222</value>
+				<value>3333</value>
+				<value>4444</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="cdPlayer" class="com.njupt.swg.service.CDPlayer">
+   		<property name="cd" ref="cd"></property>
+   	</bean>
+</beans>

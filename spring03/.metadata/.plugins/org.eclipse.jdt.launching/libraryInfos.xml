@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files\java\myjre" version="1.8.0_121">
+<bootpath>
+<entry path="C:\Program Files\java\myjre\lib\resources.jar"/>
+<entry path="C:\Program Files\java\myjre\lib\rt.jar"/>
+<entry path="C:\Program Files\java\myjre\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\java\myjre\lib\jsse.jar"/>
+<entry path="C:\Program Files\java\myjre\lib\jce.jar"/>
+<entry path="C:\Program Files\java\myjre\lib\charsets.jar"/>
+<entry path="C:\Program Files\java\myjre\lib\jfr.jar"/>
+<entry path="C:\Program Files\java\myjre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\java\myjre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\java\myjre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
