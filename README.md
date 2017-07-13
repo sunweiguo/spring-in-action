@@ -1,7 +1,7 @@
 # spring-in-action
 spring实战学习代码
 =
-###spring01 简单的hello world程序，展示导入jar包以及用beans.xml配置一个bean,最后进行测试<br>
+'spring01' 简单的hello world程序，展示导入jar包以及用beans.xml配置一个bean,最后进行测试<br>
 spring02 spring01的java注解版本<br>
 spring03 展示可以基于xml的自动组件扫描注入bean<br>
 spring04 实现有依赖关系的自动注入，java注解<br>
