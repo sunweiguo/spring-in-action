@@ -1,0 +1,5 @@
+com\yiibai\springsecurity\configuration\SpringMvcInitializer.class
+com\yiibai\springsecurity\configuration\SecurityConfiguration.class
+com\yiibai\springsecurity\configuration\SecurityWebApplicationInitializer.class
+com\yiibai\springsecurity\controller\HelloWorldController.class
+com\yiibai\springsecurity\configuration\HelloWorldConfiguration.class
