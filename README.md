@@ -21,3 +21,5 @@ spring实战学习代码
 `security02` helloWorld入门--java注解<br>
 `security03` 自定义表单--xml<br>
 `security04` 自定义表单--java注解<br>
+`security05` 注销、显示视图<br>
+`security06` 基于角色登陆<br>
