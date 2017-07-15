@@ -23,3 +23,5 @@ spring实战学习代码
 `security04` 自定义表单--java注解<br>
 `security05` 注销、显示视图<br>
 `security06` 基于角色登陆<br>
+`security07` security与hibernate的简单整合，并且基于角色登陆
+`security08` 在07的基础上增加一个remeber me的功能
